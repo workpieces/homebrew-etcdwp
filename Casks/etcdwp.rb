@@ -7,15 +7,8 @@ cask "etcdwp" do
   desc "Etcd management application built on the modern with Golang Flutter and SwiftUI"
   homepage "https://github.com/workpieces/etcdwp"
 
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
-
   auto_updates true
   depends_on macos: ">= :mojave"
 
   app "etcdwp.app"
-
-  zap trash: "~/.etcdwp"
 end
