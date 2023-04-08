@@ -1,8 +1,8 @@
 cask "etcdwp" do
-  version "2.0.0"
-  sha256 "fa701ec90774d6806da78c8c40e46a4b473170b10984bd7891ffb3bc93c43d91"
+  version "2.0.1"
+  sha256 "ccdd3d412525d8b3fabe7b284304666b2df5567c89a9be369c26b53d50195184"
 
-  url "https://github.com/workpieces/etcdwp/releases/download/v#{version}/etcdwp_v#{version}.dmg",
+  url "https://github.com/workpieces/etcdwp/releases/download/v#{version}/etcdwp.dmg",
       verified: "github.com/workpieces/etcdwp/"
   name "etcdwp"
   desc "Etcd management application built on the modern with Golang Flutter and SwiftUI"
